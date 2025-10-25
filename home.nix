@@ -13,7 +13,6 @@
   
   imports = [ ./modules ];
 
-  nixpkgs.config.allowUnfree = true;
   home.packages = with pkgs; [
     burpsuite
     remmina
