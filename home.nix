@@ -20,7 +20,6 @@
     krita
     microfetch
     wireshark
-    mullvad-vpn
   ];
 
   home.file = {

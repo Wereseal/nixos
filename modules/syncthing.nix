@@ -1,9 +1,6 @@
 {...}:{
   services.syncthing = {
     enable = true;
-    user = "sholto";
-    dataDir = "/home/sholto/Documents";
-    configDir = "/home/sholto/.config/syncthing";
     overrideDevices = true;
     overrideFolders = true;
     settings = {

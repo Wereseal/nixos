@@ -90,23 +90,12 @@
 
   # ABCDEFGHIJKLMNOPQRSTUVWXYZ
   environment.systemPackages = with pkgs; [
-    amberol
     cargo
-    discord
     fzf
-    home-manager
-    kitty
-    obsidian
-    mullvad
     python313
     python313Packages.dbus-python
-    libreoffice-qt
-    proton-pass
-    thunderbird
-    vscodium
     vim 
     wget
-    zapzap
   ];
 
   nix.settings.experimental-features = ["nix-command" "flakes"];

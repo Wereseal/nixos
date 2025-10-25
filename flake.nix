@@ -9,17 +9,17 @@
     };
   };
 
-  outputs = { self, nixpkgs, ... }@inputs: 
-  let
-  in
+  outputs = { self, nixpkgs, home-manager, ... }@inputs:
   {
 
 # change "nixos" if I change hostname
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem{
-      specialArgs = {inherit inputs;};
+      specialArgs = { inherit inputs; };
       modules = [
+
         ./system.nix
-	inputs.home-manager.nixosModules.home-manager {
+	
+	home-manager.nixosModules.home-manager {
 	  home-manager.useGlobalPkgs = true;
 	  home-manager.useUserPackages = true;
 	  home-manager.users.sholto = import ./home.nix;
