@@ -1,6 +1,6 @@
 {...}:{
   imports = [ 
-    ./apps.nix 
-    ./services.nix
+    ./apps
+    ./services
   ];
 }
