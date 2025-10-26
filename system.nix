@@ -73,29 +73,8 @@
 
   nixpkgs.config.allowUnfree = true;
 
-  programs.firefox = {
-    enable = true;
-    preferences = {
-      "extensions.pocket.enabled" = false;
-      "browser.newtabpage.activity-stream.trendingSearch.defaultSearchEngine" = "DuckDuckGo";
-    };
-  };
-  programs.neovim.enable = true;
-  programs.steam.enable = true;
-
-  programs.kdeconnect = {
-    enable = true;
-    package = pkgs.gnomeExtensions.gsconnect;
-  };
-
   # ABCDEFGHIJKLMNOPQRSTUVWXYZ
   environment.systemPackages = with pkgs; [
-    cargo
-    fzf
-    python313
-    python313Packages.dbus-python
-    vim 
-    wget
   ];
 
   nix.settings.experimental-features = ["nix-command" "flakes"];

@@ -1,4 +1,8 @@
 {pkgs, ...}:{
+  
+  imports = [
+    ./terminal
+  ];
 
   home.packages = with pkgs; [
     kitty

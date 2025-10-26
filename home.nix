@@ -5,21 +5,9 @@
   home.homeDirectory = "/home/sholto";
   home.stateVersion = "25.05"; 
 
-  programs.git = {
-    enable = true;
-    userName  = "Wereseal";
-    userEmail = "sholto.coulter@proton.me";
-  };
   
   imports = [ ./modules ];
 
-  home.packages = with pkgs; [
-    burpsuite
-    remmina
-    krita
-    microfetch
-    wireshark
-  ];
 
   home.file = {
   };
