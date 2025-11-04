@@ -32,7 +32,7 @@
     amberol
     discord
     obsidian
-    mullvad
+    mullvad-vpn
     libreoffice-qt
     proton-pass
     thunderbird
