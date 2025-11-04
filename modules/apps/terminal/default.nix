@@ -2,6 +2,7 @@
 
   imports = [
     ./rust.nix
+    ./github.nix
     ./python.nix
   ];
 
