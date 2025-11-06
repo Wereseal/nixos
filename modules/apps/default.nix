@@ -23,6 +23,8 @@
   };
 
   home.packages = with pkgs; [
+    jdk21_headless
+    prismlauncher
     kitty
     zoom-us
     burpsuite
