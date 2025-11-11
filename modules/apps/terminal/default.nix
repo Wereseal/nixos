@@ -10,15 +10,11 @@
   home.packages = with pkgs; [
     neovim
     fzf
-
-
-
-
-
-
   ];
   programs.zoxide.enable = true;
 
 
+  programs.bash.enable = true;
+  
 
 }
