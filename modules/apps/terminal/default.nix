@@ -15,7 +15,10 @@
 
 
 
+
   ];
+  programs.zoxide.enable = true;
+
 
 
 }
