@@ -17,4 +17,7 @@
   programs.bash.enable = true;
   
 
+  home.shellAliases = {
+    z="zoxide";
+  };
 }
