@@ -23,6 +23,16 @@
   };
 
   home.packages = with pkgs; [
+    mediawriter
+    android-tools
+    wine
+    ghidra
+    xxd
+    steghide
+    nmap
+    wireguard-tools
+    protonvpn-gui
+    video-downloader
     jdk21_headless
     prismlauncher
     kitty
@@ -34,7 +44,6 @@
     amberol
     discord
     obsidian
-    mullvad-vpn
     libreoffice-qt
     proton-pass
     thunderbird

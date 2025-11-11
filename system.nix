@@ -35,6 +35,7 @@
     LC_TIME = "en_GB.UTF-8";
 
   };
+  services.mullvad-vpn.enable = true;
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
