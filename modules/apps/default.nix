@@ -23,6 +23,7 @@
   };
 
   home.packages = with pkgs; [
+    vdhcoapp
     mediawriter
     android-tools
     wine
