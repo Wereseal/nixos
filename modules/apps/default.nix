@@ -23,6 +23,7 @@
   };
 
   home.packages = with pkgs; [
+    texmaker
     vdhcoapp
     mediawriter
     android-tools
