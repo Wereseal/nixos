@@ -23,7 +23,6 @@
   };
 
   home.packages = with pkgs; [
-    thonny
     pavucontrol
     lilex
     ttyper
