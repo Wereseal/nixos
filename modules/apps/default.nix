@@ -23,6 +23,7 @@
   };
 
   home.packages = with pkgs; [
+    lilex
     ttyper
     gimp3
     mullvad-vpn
