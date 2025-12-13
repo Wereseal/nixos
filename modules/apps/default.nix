@@ -23,6 +23,7 @@
   };
 
   home.packages = with pkgs; [
+    pavucontrol
     lilex
     ttyper
     gimp3
