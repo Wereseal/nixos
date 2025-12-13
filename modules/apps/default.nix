@@ -23,6 +23,11 @@
   };
 
   home.packages = with pkgs; [
+    ttyper
+    gimp3
+    mullvad-vpn
+    qbittorrent
+    texlive.combined.scheme-full
     texmaker
     vdhcoapp
     mediawriter

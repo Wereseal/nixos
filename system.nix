@@ -89,6 +89,7 @@
   };
   # ABCDEFGHIJKLMNOPQRSTUVWXYZ
   environment.systemPackages = with pkgs; [
+    tor
   ];
 
   nix.settings.experimental-features = ["nix-command" "flakes"];
