@@ -23,6 +23,8 @@
   };
 
   home.packages = with pkgs; [
+    httrack
+    thonny
     pavucontrol
     lilex
     ttyper
